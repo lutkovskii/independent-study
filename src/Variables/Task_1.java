@@ -8,5 +8,16 @@ package Variables;
 Цель: Научиться использовать временную переменную для обмена значений.
 Подсказка: Комментарий: Без временной переменной temp мы бы потеряли исходное значение переменной a при первой же операции присваивания.
  */
-public class Task_1 {
+public  class Task_1 {
+    public static void main(String[] args){
+
+        int a = 5;
+        int b = 10;
+        System.out.println(a + " , "+ b);
+        int Temp = b;
+        int Temp1 = a;
+        a = Temp;
+        b = Temp1;
+        System.out.println(a + " , "+ b);
+    }
 }

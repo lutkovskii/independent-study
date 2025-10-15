@@ -11,4 +11,11 @@ package Variables;
 
  */
 public class Task_2 {
+    public static void main(String[] args) {
+        double usdAmount = 100;
+        double exchangeRate = 0.92;
+        double evroAmount = usdAmount*exchangeRate;
+        System.out.println("Сумма в евро составляет " + evroAmount + " евро");
+
+    }
 }
