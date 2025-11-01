@@ -19,6 +19,6 @@ public class Task_4 {
         char letter = 'Н';
         boolean exam = false;
         String Name = "Николай";
-        System.out.println("Студент " + Name + "с первой буквой в имени " + letter + " в возрасте " + age + " год " + "имеет средний балл " + "и результат по сдаче экзамена " + exam);
+        System.out.println("Студент " + Name + " с первой буквой в имени " + letter + " в возрасте " + age + " год " + "имеет средний балл " + "и результат по сдаче экзамена " + exam);
     }
 }
